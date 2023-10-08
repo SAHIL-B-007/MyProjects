@@ -9,6 +9,7 @@
   else
   {
     echo 'Connected!';
+    echo 'DB Connection Successful';
   }
 
 ?>
