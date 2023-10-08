@@ -1,6 +1,6 @@
 <?php
 
-  $conn = mysqli_connect('localhost');
+  $conn = mysqli_connect('localhost','root','','dbname');
 
   if(!$conn)
   {
@@ -9,6 +9,7 @@
   else
   {
     echo 'Connected!';
+    echo 'DB Connection Successful';
   }
 
 ?>
