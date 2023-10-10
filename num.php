@@ -2,7 +2,7 @@
 
   $a = 10;
 
-  if()
+  if($a%2==0)
   {
     echo 'Even number';
   }
